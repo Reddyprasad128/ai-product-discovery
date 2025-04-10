@@ -1,3 +1,4 @@
+import Login from './Login';
 import Register from './Register'; 
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
@@ -8,7 +9,7 @@ import {
 import axios from 'axios';
 
 import ProtectedRoute from './components/ProtectedRoute';
-import Login from './Login'; // ✅ Import Login from separate file
+
 
 // Placeholder components (you can customize them)
 const AdminPage = () => <Container><h2>Admin Dashboard</h2></Container>;
